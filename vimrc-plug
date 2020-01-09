@@ -1,0 +1,37 @@
+" Direktori untuk plugin, hindari menggunakan direktori standard Vim seperti 'plugin'
+call plug#begin('~/.vim/plugged')
+
+Plug 'tpope/vim-surround'
+Plug 'mattn/emmet-vim'
+Plug 'jiangmiao/auto-pairs'
+Plug 'scrooloose/nerdtree'
+
+"colorschemes: 
+Plug 'eemed/sitruuna.vim'
+Plug 'arzg/vim-colors-xcode'
+Plug 'sainnhe/edge'
+Plug 'mcmartelle/vim-monokai-bold'
+Plug 'jdsimcoe/panic.vim'
+Plug 'flrnd/candid.vim'
+Plug 'aonemd/kuroi.vim' 
+Plug 'aonemd/kuroi.vim'
+Plug 'ntk148v/vim-horizon'
+Plug 'fatih/molokai'
+Plug 'Nequo/vim-allomancer'
+Plug 'patstockwell/vim-monokai-tasty'
+Plug 'jdsimcoe/abstract.vim'
+Plug 'kaicataldo/material.vim'
+Plug 'felipesousa/rupza'
+Plug 'wdhg/dragon-energy'
+Plug 'levelone/tequila-sunrise.vim'
+Plug 'rafalbromirski/vim-aurora'
+
+" For JavaScript or React development:
+Plug 'pangloss/vim-javascript'
+Plug 'MaxMEllon/vim-jsx-pretty'
+Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+Plug 'elzr/vim-json'
+Plug 'jparise/vim-graphql'
+
+call plug#end()
+
